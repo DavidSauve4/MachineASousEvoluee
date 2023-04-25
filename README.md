@@ -5,6 +5,8 @@
 
 #Veuillez noter que ceci est une simulation simplifiée et n'inclut pas de gains réels, de mises ou de crédits. Ce programme est destiné uniquement à des #fins de divertissement.
 
+#INSTALLATION SUR MAC
+
 #Pour installer et exécuter ce programme de simulation de machine à sous sur un Mac, suivez les étapes ci-dessous :
 
 #Installez Python (si ce n'est pas déjà fait) :
