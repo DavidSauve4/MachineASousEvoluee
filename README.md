@@ -32,3 +32,32 @@
 #Pour arrêter le programme, appuyez sur Ctrl + C dans le terminal.
 
 #Voilà ! Vous avez maintenant installé et exécuté la simulation de machine à sous sur votre Mac. N'hésitez pas à modifier le code pour personnaliser la #simulation ou ajouter de nouvelles fonctionnalités.
+
+
+#INSTALLATION SUR WINDOWS
+
+Pour installer et exécuter le programme de simulation de machine à sous sur Windows, suivez ces étapes :
+
+Installez Python (si ce n'est pas déjà fait) :
+a. Rendez-vous sur le site officiel de Python à l'adresse https://www.python.org/downloads/.
+b. Téléchargez la dernière version de Python pour Windows.
+c. Ouvrez le fichier d'installation téléchargé et suivez les instructions pour installer Python. Assurez-vous de cocher la case "Add Python to PATH" pendant l'installation.
+
+Ouvrez l'application Invite de commandes :
+a. Appuyez sur Win + R pour ouvrir la boîte de dialogue Exécuter.
+b. Tapez "cmd" et appuyez sur Entrée pour ouvrir l'Invite de commandes.
+
+Créez un nouveau fichier Python pour le code de la machine à sous :
+a. Dans l'Invite de commandes, tapez echo.> slot_machine.py et appuyez sur Entrée. Cela créera un nouveau fichier Python nommé slot_machine.py dans votre répertoire utilisateur.
+
+Ouvrez le fichier slot_machine.py dans un éditeur de texte (par exemple, Bloc-notes, Visual Studio Code, ou Atom) :
+a. Dans l'Invite de commandes, tapez notepad slot_machine.py et appuyez sur Entrée. Ceci ouvrira le fichier slot_machine.py dans le Bloc-notes. Vous pouvez remplacer "notepad" par le nom de l'éditeur de texte de votre choix si vous préférez en utiliser un autre.
+
+Copiez le code de la simulation de machine à sous (voir réponse précédente) et collez-le dans le fichier slot_machine.py. Enregistrez le fichier et fermez l'éditeur de texte.
+
+Exécutez le programme de simulation de machine à sous :
+a. Dans l'Invite de commandes, tapez python slot_machine.py et appuyez sur Entrée. Le programme s'exécutera et vous pourrez jouer à la simulation de machine à sous.
+
+Pour arrêter le programme, appuyez sur Ctrl + C dans l'Invite de commandes.
+
+Voilà ! Vous avez maintenant installé et exécuté la simulation de machine à sous sur votre ordinateur Windows. N'hésitez pas à modifier le code pour personnaliser la simulation ou ajouter de nouvelles fonctionnalités.
