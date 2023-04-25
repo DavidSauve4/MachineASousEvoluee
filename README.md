@@ -5,15 +5,15 @@
 
 #Veuillez noter que ceci est une simulation simplifiée et n'inclut pas de gains réels, de mises ou de crédits. Ce programme est destiné uniquement à des #fins de divertissement.
 
-Pour installer et exécuter ce programme de simulation de machine à sous sur un Mac, suivez les étapes ci-dessous :
+#Pour installer et exécuter ce programme de simulation de machine à sous sur un Mac, suivez les étapes ci-dessous :
 
-Installez Python (si ce n'est pas déjà fait) :
-a. Allez sur le site officiel de Python à l'adresse https://www.python.org/downloads/.
-b. Téléchargez la dernière version de Python pour macOS.
-c. Ouvrez le fichier d'installation téléchargé et suivez les instructions pour installer Python.
+#Installez Python (si ce n'est pas déjà fait) :
+#a. Allez sur le site officiel de Python à l'adresse https://www.python.org/downloads/.
+#b. Téléchargez la dernière version de Python pour macOS.
+#c. Ouvrez le fichier d'installation téléchargé et suivez les instructions pour installer Python.
 
-Ouvrez l'application Terminal :
-a. Appuyez sur Cmd + Espace pour ouvrir Spotlight.
+#Ouvrez l'application Terminal :
+#a. Appuyez sur Cmd + Espace pour ouvrir Spotlight.
 b. Tapez "Terminal" et appuyez sur Entrée.
 
 Créez un nouveau fichier Python pour le code de la machine à sous :
