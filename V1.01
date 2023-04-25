@@ -1,0 +1,27 @@
+import random
+
+def spin_reel():
+    symbols = ["cerise", "citron", "orange", "prune", "cloche", "bar", "7"]
+    return random.choice(symbols)
+
+def play_slot_machine():
+    print("Bienvenue à la machine à sous !")
+    input("Appuyez sur Entrée pour tirer le levier...")
+
+    reel1 = spin_reel()
+    reel2 = spin_reel()
+    reel3 = spin_reel()
+
+    print(f"{reel1} | {reel2} | {reel3}")
+
+    if reel1 == reel2 == reel3:
+        print("Félicitations ! Vous avez gagné !")
+    else:
+        print("Dommage, vous avez perdu. Essayez encore !")
+
+if __name__ == "__main__":
+    while True:
+        play_slot_machine()
+        play_again = input("Voulez-vous jouer encore? (Oui/Non) : ").lower()
+        if play_again != "oui":
+            break
