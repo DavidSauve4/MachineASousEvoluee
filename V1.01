@@ -1,72 +1,35 @@
-import pygame
 import random
-import os
+from colorama import init, Fore, Style
 
-# Paramètres
-WIDTH = 800
-HEIGHT = 600
-FPS = 60
-FONT_SIZE = 40
-
-# Couleurs
-WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
-GREEN = (0, 255, 0)
-RED = (255, 0, 0)
-
-# Initialisation de Pygame
-pygame.init()
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Machine à sous")
-clock = pygame.time.Clock()
-
-# Chargement des images des symboles
-symbols = ["cerise", "citron", "orange", "prune", "cloche", "bar", "7"]
-symbol_images = {}
-for symbol in symbols:
-    symbol_images[symbol] = pygame.image.load(os.path.join("images", f"{symbol}.png")).convert_alpha()
-
-# Police de caractère
-font = pygame.font.Font(None, FONT_SIZE)
-
-def draw_text(surface, text, x, y, color):
-    text_surface = font.render(text, True, color)
-    text_rect = text_surface.get_rect()
-    text_rect.midtop = (x, y)
-    surface.blit(text_surface, text_rect)
+# Initialise colorama pour les couleurs du terminal
+init()
 
 def spin_reel():
+    symbols = ["@", "#", "&", "%", "!", "*", "$"]
     return random.choice(symbols)
 
 def play_slot_machine():
+    print("Tirez le levier...")
+
     reel1 = spin_reel()
     reel2 = spin_reel()
     reel3 = spin_reel()
 
-    screen.fill(BLACK)
-    screen.blit(symbol_images[reel1], (WIDTH // 3 * 0 + 50, HEIGHT // 2 - 100))
-    screen.blit(symbol_images[reel2], (WIDTH // 3 * 1 + 50, HEIGHT // 2 - 100))
-    screen.blit(symbol_images[reel3], (WIDTH // 3 * 2 + 50, HEIGHT // 2 - 100))
+    color1 = Fore.GREEN
+    color2 = Fore.YELLOW
+    color3 = Fore.RED
+    color_reset = Fore.RESET
+
+    print(f"{color1}{reel1:^5} {color2}{reel2:^5} {color3}{reel3:^5}{color_reset}\n")
 
     if reel1 == reel2 == reel3:
-        draw_text(screen, "Gagné !", WIDTH // 2, 50, GREEN)
+        print(f"{Fore.GREEN}Félicitations ! Vous avez gagné !{Fore.RESET}")
     else:
-        draw_text(screen, "Perdu...", WIDTH // 2, 50, RED)
+        print(f"{Fore.RED}Dommage, vous avez perdu. Essayez encore !{Fore.RESET}")
 
-    pygame.display.flip()
-    pygame.time.wait(2000)
-
-running = True
-while running:
-    screen.fill(BLACK)
-    draw_text(screen, "Appuyez sur ESPACE pour tirer le levier", WIDTH // 2, HEIGHT // 2, WHITE)
-    pygame.display.flip()
-
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-        elif event.type == pygame.KEY
-        if event.key == pygame.K_SPACE:
-            play_slot_machine()
-
-pygame.quit()
+if __name__ == "__main__":
+    while True:
+        play_slot_machine()
+        play_again = input("Voulez-vous jouer encore? (Oui/Non) : ").lower()
+        if play_again != "oui":
+            break
