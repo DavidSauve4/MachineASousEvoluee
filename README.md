@@ -1,9 +1,11 @@
 2023 DavidSauve4
 # Machine à sous évoluée (V1.01)
 
-#Ce code simule une machine à sous avec 7 symboles différents. Lorsque l'utilisateur appuie sur Entrée, les 3 rouleaux tournent et affichent des symboles #aléatoires. Si les 3 symboles sont identiques, l'utilisateur gagne. Sinon, l'utilisateur perd. L'utilisateur peut choisir de continuer à jouer ou #d'arrêter.
+Pour exécuter ce code, vous devez d'abord installer la bibliothèque colorama pour ajouter des couleurs aux caractères. Pour installer colorama, ouvrez le terminal (Mac) ou l'invite de commandes (Windows) et tapez pip install colorama puis appuyez sur Entrée.
 
-#Veuillez noter que ceci est une simulation simplifiée et n'inclut pas de gains réels, de mises ou de crédits. Ce programme est destiné uniquement à des #fins de divertissement.
+Copiez et collez le code ci-dessus dans un fichier Python (par exemple, slot_machine_pixel.py) et exécutez le fichier dans le terminal (Mac) ou l'invite de commandes (Windows).
+
+Veuillez noter que ce code utilise des caractères pour simuler les graphismes et ne créera pas de graphismes élaborés comme vous pourriez obtenir avec une bibliothèque graphique telle que Pygame.
 
 #INSTALLATION SUR MAC
 
