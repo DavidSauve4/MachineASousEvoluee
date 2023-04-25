@@ -1,4 +1,4 @@
-2023 David Sauvé
+2023 DavidSauve4
 # Machine à sous évoluée (V1.01)
 
 #Ce code simule une machine à sous avec 7 symboles différents. Lorsque l'utilisateur appuie sur Entrée, les 3 rouleaux tournent et affichent des symboles #aléatoires. Si les 3 symboles sont identiques, l'utilisateur gagne. Sinon, l'utilisateur perd. L'utilisateur peut choisir de continuer à jouer ou #d'arrêter.
