@@ -14,19 +14,19 @@
 
 #Ouvrez l'application Terminal :
 #a. Appuyez sur Cmd + Espace pour ouvrir Spotlight.
-b. Tapez "Terminal" et appuyez sur Entrée.
+#b. Tapez "Terminal" et appuyez sur Entrée.
 
-Créez un nouveau fichier Python pour le code de la machine à sous :
-a. Dans le terminal, tapez touch slot_machine.py et appuyez sur Entrée. Cela créera un nouveau fichier Python nommé slot_machine.py dans votre répertoire personnel.
+#Créez un nouveau fichier Python pour le code de la machine à sous :
+#a. Dans le terminal, tapez touch slot_machine.py et appuyez sur Entrée. Cela créera un nouveau fichier Python nommé slot_machine.py dans votre #répertoire personnel.
 
-Ouvrez le fichier slot_machine.py dans un éditeur de texte (par exemple, TextEdit, Visual Studio Code, ou Atom) :
-a. Dans le terminal, tapez open -a TextEdit slot_machine.py et appuyez sur Entrée. Ceci ouvrira le fichier slot_machine.py dans TextEdit. Vous pouvez remplacer "TextEdit" par le nom de l'éditeur de texte de votre choix si vous préférez en utiliser un autre.
+#Ouvrez le fichier slot_machine.py dans un éditeur de texte (par exemple, TextEdit, Visual Studio Code, ou Atom) :
+#a. Dans le terminal, tapez open -a TextEdit slot_machine.py et appuyez sur Entrée. Ceci ouvrira le fichier slot_machine.py dans TextEdit. Vous pouvez #remplacer "TextEdit" par le nom de l'éditeur de texte de votre choix si vous préférez en utiliser un autre.
 
-Copiez le code de la simulation de machine à sous (voir réponse précédente) et collez-le dans le fichier slot_machine.py. Enregistrez le fichier et fermez l'éditeur de texte.
+#Copiez le code de la simulation de machine à sous (voir réponse précédente) et collez-le dans le fichier slot_machine.py. Enregistrez le fichier et #fermez l'éditeur de texte.
 
-Exécutez le programme de simulation de machine à sous :
-a. Dans le terminal, tapez python3 slot_machine.py et appuyez sur Entrée. Le programme s'exécutera et vous pourrez jouer à la simulation de machine à sous.
+#Exécutez le programme de simulation de machine à sous :
+#a. Dans le terminal, tapez python3 slot_machine.py et appuyez sur Entrée. Le programme s'exécutera et vous pourrez jouer à la simulation de machine à sous.
 
-Pour arrêter le programme, appuyez sur Ctrl + C dans le terminal.
+#Pour arrêter le programme, appuyez sur Ctrl + C dans le terminal.
 
-Voilà ! Vous avez maintenant installé et exécuté la simulation de machine à sous sur votre Mac. N'hésitez pas à modifier le code pour personnaliser la simulation ou ajouter de nouvelles fonctionnalités.
+#Voilà ! Vous avez maintenant installé et exécuté la simulation de machine à sous sur votre Mac. N'hésitez pas à modifier le code pour personnaliser la #simulation ou ajouter de nouvelles fonctionnalités.
